@@ -22,3 +22,7 @@ password: smith
 
 Matt Smith
 Jan 2014
+
+p.s.
+I'm now learning MarkDown with their online lessons:
+[http://www.markdowntutorial.com/lesson/1](http://www.markdowntutorial.com/lesson/1)
