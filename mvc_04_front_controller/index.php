@@ -6,7 +6,7 @@
 // ------------------
 
 // include our functions to simplify the URI for routing
-require_once 'mvc/includes/uri_simplify_functions.php';
+require_once 'include_route_functions.php';
 
 // load and initialize any global libraries
 require_once 'mvc/model.php'; 
@@ -26,6 +26,7 @@ $callingScriptPath = $_SERVER['SCRIPT_NAME'];
 if (array_key_exists('PATH_INFO', $_SERVER)) {
     $pathInfo = $_SERVER['PATH_INFO'];
 } else {
+    // if no such array key, then we must be running default script for this directory (index.php)
     $pathInfo = '/';
 }
 

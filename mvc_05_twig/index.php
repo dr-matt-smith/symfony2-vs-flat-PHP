@@ -6,14 +6,24 @@
 // ------------------
 
 // include our functions to simplify the URI for routing
-require_once 'mvc/includes/uri_simplify_functions.php';
-
-// set up the TWIG environment and variables
-require_once 'mvc/includes/aa_INC_autoloader.php';
+require_once 'include_route_functions.php';
 
 // load and initialize any global libraries
 require_once 'mvc/model.php';
 require_once 'mvc/controllers.php';
+
+// Twig functions
+require_once 'Twig/Autoloader.php';
+
+// ------------------
+// TWIG setup
+// ------------------
+// set up the templating object: $twig
+Twig_Autoloader::register();
+$pathToMyTwigTemplates = 'mvc/templates';
+$loader = new Twig_Loader_Filesystem( $pathToMyTwigTemplates );
+$cacheOptionArray = array('cache' => false);
+$twig = new Twig_Environment($loader, $cacheOptionArray);
 
 // ------------------
 // get the routing info
@@ -29,6 +39,7 @@ $callingScriptPath = $_SERVER['SCRIPT_NAME'];
 if (array_key_exists('PATH_INFO', $_SERVER)) {
     $pathInfo = $_SERVER['PATH_INFO'];
 } else {
+    // if no such array key, then we must be running default script for this directory (index.php)
     $pathInfo = '/';
 }
 
