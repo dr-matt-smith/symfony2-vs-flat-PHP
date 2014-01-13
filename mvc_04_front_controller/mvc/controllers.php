@@ -10,5 +10,5 @@ function list_action()
 function show_action($id, $callingScriptPath)
 {
 	$post = get_post_by_id($id);
-	require 'mvc/templates/show.php';
+	require 'templates/show.php';
 }

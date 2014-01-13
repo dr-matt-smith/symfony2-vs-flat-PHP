@@ -23,7 +23,11 @@ $uri = $_SERVER['REQUEST_URI'];
 $callingScriptPath = $_SERVER['SCRIPT_NAME'];
 
 // get everything after the script name, excluding any variables
-$pathInfo = $_SERVER['PATH_INFO'];
+if (array_key_exists('PATH_INFO', $_SERVER)) {
+    $pathInfo = $_SERVER['PATH_INFO'];
+} else {
+    $pathInfo = '/';
+}
 
 // ensure route ends with a forward slash
 $route = simpleRoute($pathInfo);
