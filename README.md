@@ -11,13 +11,13 @@ but with a bit of routing/URI tidying up, so that the versions for each step can
 
 ## Setting up the DB
 I've followed the same DB structure as in the Symfony2 pages
-DB name is: blog_db
+DB name is: **blog_db**
 
 the file '[db.sql](db.sql)' contains the SQL to setup the DB you need
 
 create a DB user with privileges to this database - in my examples I use the following username / password:
-username: fred
-password: smith
+username: **fred**
+password: **smith**
 
 
 Matt Smith

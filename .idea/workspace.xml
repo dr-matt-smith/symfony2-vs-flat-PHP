@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1e8c3dc2-a303-4990-ab22-968a6076bbea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_02_model/show.php" afterPath="$PROJECT_DIR$/mvc_02_model/show.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="symfony2-vs-flat-PHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,21 +27,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc_02_model/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="3" selection-start="46" selection-end="46" vertical-scroll-proportion="0.059840426" vertical-offset="0" max-vertical-offset="752">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc_00_flat/index.php">
+      <file leaf-file-name="list.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc_02_model/templates/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="95" selection-end="183" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="615">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mvc_02_model/show.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="17" selection-start="316" selection-end="316" vertical-scroll-proportion="0.37848607" vertical-offset="0" max-vertical-offset="753">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc_02_model/templates/show.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="20" selection-start="260" selection-end="260" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc_02_model/model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="630">
               <folding>
-                <marker date="1389605063000" expanded="true" signature="207:233" placeholder="SELECT id, t..post..." />
+                <marker date="1389604958000" expanded="true" signature="322:348" placeholder="SELECT id, t..post..." />
+                <marker date="1389604958000" expanded="true" signature="637:678" placeholder="SELECT title..post..." />
               </folding>
             </state>
           </provider>
@@ -75,6 +105,7 @@
         <option value="$PROJECT_DIR$/mvc_05_twig/index.php" />
         <option value="$PROJECT_DIR$/db.sql" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mvc_02_model/show.php" />
       </list>
     </option>
   </component>
@@ -138,7 +169,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvc_00_flat" />
+              <option name="myItemId" value="mvc_02_model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,67 +282,69 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_00_flat/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="95" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="921" selection-end="921" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_00_flat/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="95" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="615" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mvc_05_twig/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1110">
-          <folding />
-        </state>
+        <state line="42" column="0" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1110" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_05_twig/mvc/templates/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/mvc/templates/layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/mvc/templates/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_05_twig/mvc/templates/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="327" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="405">
-          <folding />
-        </state>
+        <state line="15" column="17" selection-start="327" selection-end="341" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="405" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_05_twig/mvc/templates/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="26" column="14" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_05_twig/include_route_functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="705">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="930">
-          <folding />
-        </state>
+        <state line="29" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/include_route_functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_03_extendable_pres/templates/list.php">
@@ -331,86 +364,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/include_route_functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_05_twig/mvc/templates/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/mvc/templates/layout.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/mvc/templates/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_05_twig/mvc/templates/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="327" selection-end="341" vertical-scroll-proportion="0.30821916" vertical-offset="0" max-vertical-offset="730" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_05_twig/mvc/templates/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="14" selection-start="431" selection-end="431" vertical-scroll-proportion="0.5179283" vertical-offset="0" max-vertical-offset="753" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_05_twig/include_route_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.01992032" vertical-offset="0" max-vertical-offset="753" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.3426295" vertical-offset="177" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_05_twig/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.38356164" vertical-offset="350" max-vertical-offset="1110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="834" selection-end="834" vertical-scroll-proportion="0.74277854" vertical-offset="0" max-vertical-offset="727" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_00_flat/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="95" selection-end="183" vertical-scroll-proportion="0.13944224" vertical-offset="0" max-vertical-offset="753" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="921" selection-end="921" vertical-scroll-proportion="0.55984557" vertical-offset="0" max-vertical-offset="777" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_02_model/index.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/mvc/templates/list.php">
+    <entry file="file://$PROJECT_DIR$/mvc_02_model/templates/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_05_twig/mvc/templates/list.html.twig">
+    <entry file="file://$PROJECT_DIR$/mvc_02_model/model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="327" selection-end="341" vertical-scroll-proportion="0.30821916" vertical-offset="0" max-vertical-offset="730">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_05_twig/mvc/templates/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="14" selection-start="431" selection-end="431" vertical-scroll-proportion="0.5179283" vertical-offset="0" max-vertical-offset="753">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_05_twig/include_route_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.01992032" vertical-offset="0" max-vertical-offset="753">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_04_front_controller/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.3426295" vertical-offset="177" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_05_twig/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.38356164" vertical-offset="350" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_00_flat/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="95" selection-end="183" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="615">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
           <folding>
-            <marker date="1389605063000" expanded="true" signature="207:233" placeholder="SELECT id, t..post..." />
+            <marker date="1389604958000" expanded="true" signature="322:348" placeholder="SELECT id, t..post..." />
+            <marker date="1389604958000" expanded="true" signature="637:678" placeholder="SELECT title..post..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.sql">
+    <entry file="file://$PROJECT_DIR$/mvc_02_model/templates/show.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="834" selection-end="834" vertical-scroll-proportion="0.74277854" vertical-offset="0" max-vertical-offset="727">
+        <state line="18" column="20" selection-start="260" selection-end="260" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/mvc_02_model/show.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="46" selection-end="46" vertical-scroll-proportion="0.059840426" vertical-offset="0" max-vertical-offset="752">
+        <state line="19" column="17" selection-start="316" selection-end="316" vertical-scroll-proportion="0.37848607" vertical-offset="0" max-vertical-offset="753">
           <folding />
         </state>
       </provider>
