@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e8c3dc2-a303-4990-ab22-968a6076bbea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_02_model/show.php" afterPath="$PROJECT_DIR$/mvc_02_model/show.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="symfony2-vs-flat-PHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +46,7 @@
       <file leaf-file-name="show.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvc_02_model/show.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="17" selection-start="316" selection-end="316" vertical-scroll-proportion="0.37848607" vertical-offset="0" max-vertical-offset="753">
+            <state line="19" column="16" selection-start="315" selection-end="315" vertical-scroll-proportion="0.37848607" vertical-offset="0" max-vertical-offset="753">
               <folding />
             </state>
           </provider>
@@ -455,7 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_02_model/show.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="316" selection-end="316" vertical-scroll-proportion="0.37848607" vertical-offset="0" max-vertical-offset="753">
+        <state line="19" column="16" selection-start="315" selection-end="315" vertical-scroll-proportion="0.37848607" vertical-offset="0" max-vertical-offset="753">
           <folding />
         </state>
       </provider>
