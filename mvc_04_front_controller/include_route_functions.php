@@ -5,7 +5,7 @@
 //
 // useful functions to simplify the uri
 //
-// in a nutshell, we want to ignore everything before the "/" after the 'index.php' script name in the URI
+// in a nutshell, we want to ignore everything before the "/" after the 'index2.php' script name in the URI
 // AND remove any URL-encoded parameters
 //
 // example outputs:
@@ -13,16 +13,16 @@
 //		INPUT = /
 //		OUTPUT = /
 //
-//		INPUT = /index.php
+//		INPUT = /index2.php
 //		OUTPUT = /
 //
-//		INPUT = /index.php/
+//		INPUT = /index2.php/
 //		OUTPUT = /
 //
-//		INPUT = /index.php/show?id=2
+//		INPUT = /index2.php/show?id=2
 //		OUTPUT = /show
 //
-//		INPUT = localhost:8888/symfony2_from_flat/mvc_05_front_working/index.php
+//		INPUT = localhost:8888/symfony2_from_flat/mvc_05_front_working/index2.php
 //		OUTPUT = /
 //
 //------------------------------------------

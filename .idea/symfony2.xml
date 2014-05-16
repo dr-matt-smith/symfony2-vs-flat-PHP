@@ -7,5 +7,12 @@
       </list>
     </option>
   </component>
+  <component name="Symfony2PluginSettings">
+    <option name="containerFiles">
+      <list>
+        <container_file path="app/cache/dev/appDevDebugProjectContainer.xml" />
+      </list>
+    </option>
+  </component>
 </project>
 

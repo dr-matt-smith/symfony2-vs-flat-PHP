@@ -1,5 +1,5 @@
 <?php
-// index.php
+// index2.php
 
 // ------------------
 // connect to DB and get data

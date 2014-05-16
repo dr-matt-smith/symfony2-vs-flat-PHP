@@ -16,5 +16,3 @@ $post = get_post_by_id($id);
 // generate view
 // ------------------
 require 'templates/show.php';
-
-// I changd it !

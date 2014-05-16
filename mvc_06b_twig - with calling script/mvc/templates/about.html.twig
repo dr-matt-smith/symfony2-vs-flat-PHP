@@ -1,0 +1,41 @@
+{#----------------#}
+{# templates/about.html.twig #}
+{#----------------#}
+
+{% extends "layout.html.twig" %}
+
+{# ----------------------------------- #}
+{% block title %} About page{% endblock %}
+
+{# ----------------------------------- #}
+{% block body %}
+    <h1>About</h1>
+    <p>
+        I am the about page
+    </p>
+
+    <hr>
+    <p>
+        here are links to other pages:
+    </p>
+    <ul>
+        <li>
+            <a href="{{ callingScriptPath }}">
+                Index (list)
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ callingScriptPath }}/show?id=1">
+                details of post 1
+            </a>
+        </li>
+
+        <li>
+            <a href="{{ callingScriptPath }}/show?id=2">
+                details of post 2
+            </a>
+        </li>
+
+    </ul>
+{% endblock %}

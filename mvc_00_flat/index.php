@@ -1,5 +1,5 @@
 <?php
-// index.php
+// index2.php
 
 // ------------------
 // connect to DB and get data
@@ -28,8 +28,8 @@ $result = mysql_query('SELECT id, title FROM post', $link);
 		</li>
 	<?php endwhile; ?> 
 </ul>
-</body>
-</html>
+    </body>
+    </html>
 
 <?php
 mysql_close($link);

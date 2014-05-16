@@ -1,5 +1,5 @@
 <?php
-// index.php
+// index2.php
 
 // ------------------
 // INCLUDES
@@ -39,7 +39,7 @@ $callingScriptPath = $_SERVER['SCRIPT_NAME'];
 if (array_key_exists('PATH_INFO', $_SERVER)) {
     $pathInfo = $_SERVER['PATH_INFO'];
 } else {
-    // if no such array key, then we must be running default script for this directory (index.php)
+    // if no such array key, then we must be running default script for this directory (index2.php)
     $pathInfo = '/';
 }
 

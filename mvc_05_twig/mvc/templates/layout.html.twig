@@ -4,11 +4,16 @@
 <head>
     <meta charset="utf-8">
     <title>
-        {% block title %} Default title {% endblock %}
+        {% block title %}{% endblock %}
     </title>
 </head>
 
 <body>
+
+<header style="background-color: yellow; color: red; padding: 1em; border: 1px red solid;">
+    welcome to the BLOG
+</header>
+
 {% block body %}{% endblock %} 
 </body>
 </html>

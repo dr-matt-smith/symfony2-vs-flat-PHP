@@ -8,7 +8,8 @@ function list_action() {
 	$args_array = array(
 		'posts' => $posts
 	);
-	echo $twig->render('list.html.twig', $args_array);
+
+    echo $twig->render('list.html.twig', $args_array);
 } 
 
 function show_action($id, $callingScriptPath) {
