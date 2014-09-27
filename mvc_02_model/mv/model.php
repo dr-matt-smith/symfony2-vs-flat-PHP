@@ -36,7 +36,6 @@ function get_post_by_id($id)
 {
     $link = open_database_connection();
 
-    $id = $_GET["id"];
     $id = mysqli_real_escape_string($link, $id);
 
     $query = "SELECT title, body FROM post WHERE ID=$id";
