@@ -1,0 +1,21 @@
+{#----------------#}
+{# templates/error.html.twig #}
+{#----------------#}
+
+{% extends "layout.html.twig" %}
+
+{# ----------------------------------- #}
+{% block title %} Error page {% endblock %}
+
+{# ----------------------------------- #}
+{% block body %}
+<h1>ERROR PAGE</h1>
+<p>
+    bad path / route / missing parameters
+</p>
+
+<p>URI = '<span class="highlight">{{ uri }}</span>'</p>
+<p>callingScriptPath = '<span class="highlight">{{ callingScriptPath }}</span>'</p>
+<p>route = '<span class="highlight">{{ route }}</span>'</p>
+{% endblock %}
+

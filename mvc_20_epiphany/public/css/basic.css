@@ -1,0 +1,9 @@
+body {
+    padding-bottom: 3rem;
+}
+
+.highlight {
+    color: red;
+    background-color: yellow;
+    padding: 2px;
+}

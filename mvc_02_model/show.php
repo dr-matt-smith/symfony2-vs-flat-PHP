@@ -4,7 +4,7 @@
 // ------------------
 // INCLUDES
 // ------------------
-require_once 'model.php';
+require_once 'mv/model.php';
 
 // ------------------
 // get data
@@ -15,4 +15,4 @@ $post = get_post_by_id($id);
 // ------------------
 // generate view
 // ------------------
-require 'templates/show.php';
+require 'mv/templates/show.php';

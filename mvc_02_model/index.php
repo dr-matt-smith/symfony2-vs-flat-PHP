@@ -1,10 +1,10 @@
 <?php
-// index2.php
+// index.php
 
 // ------------------
 // INCLUDES
 // ------------------
-require_once 'model.php';
+require_once 'mv/model.php';
 
 // ------------------
 // get content from DB
@@ -14,4 +14,4 @@ $posts = get_all_posts();
 // ------------------
 // generate view
 // ------------------
-require 'templates/list.php';
+require 'mv/templates/list.php';
