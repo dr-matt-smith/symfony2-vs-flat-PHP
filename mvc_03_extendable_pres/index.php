@@ -14,4 +14,4 @@ $posts = get_all_posts();
 // ------------------
 // generate view
 // ------------------
-require 'mv/templates/list.php';
+require 'mv/templates/index.php';

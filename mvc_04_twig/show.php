@@ -15,4 +15,6 @@ $post = get_post_by_id($id);
 $args_array = array(
     'post' => $post
 );
-echo $twig->render('show.html.twig', $args_array);
+
+$template = 'show';
+echo $twig->render($template.'.html.twig', $args_array);

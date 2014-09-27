@@ -43,5 +43,5 @@ function list_action() {
         'posts' => $posts
     );
 
-    echo $twig->render('list.html.twig', $args_array);
+    echo $twig->render('index.html.twig', $args_array);
 }

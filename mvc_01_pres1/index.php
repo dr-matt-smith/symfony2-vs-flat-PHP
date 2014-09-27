@@ -34,4 +34,4 @@ mysqli_close($link);
 // ------------------
 // generate view
 // ------------------
-require 'templates/list.php';
+require 'templates/index.php';

@@ -16,4 +16,5 @@ $args_array = array(
     'posts' => $posts
 );
 
-echo $twig->render('list.html.twig', $args_array);
+$template = 'index';
+echo $twig->render($template.'.html.twig', $args_array);

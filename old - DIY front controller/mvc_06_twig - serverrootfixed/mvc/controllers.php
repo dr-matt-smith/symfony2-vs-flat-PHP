@@ -1,18 +1,6 @@
 <?php
 // controllers.php
 
-function error_action($route, $uri, $callingScriptPath) {
-    global $twig;
-
-    $args_array = array(
-        'route' => $route,
-        'uri' => $uri,
-        'callingScriptPath' => $callingScriptPath,
-    );
-    echo $twig->render('error.html.twig', $args_array);
-}
-
-
 function list_action() {
 	global $twig;
 

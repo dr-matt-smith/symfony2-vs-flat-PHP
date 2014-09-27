@@ -13,4 +13,5 @@ require_once 'vendor/setup_twig.php';
 // ------------------
 $args_array = array();
 
-echo $twig->render('about.html.twig', $args_array);
+$template = 'about';
+echo $twig->render($template.'.html.twig', $args_array);

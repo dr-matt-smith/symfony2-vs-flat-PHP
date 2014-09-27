@@ -5,12 +5,23 @@
 {% extends "layout.html.twig" %}
 
 {# ----------------------------------- #}
-{% block title %} About {% endblock %}
+{% block title %} Show a post {% endblock %}
 
 {# ----------------------------------- #}
 {% block body %}
-    <h1>About</h1>
-    <p>
-        I am the about page
-    </p>
+<h1>Show a post</h1>
+
+<a href="{{ callingScriptPath }}">
+    &lt; back to list of posts
+</a>
+<hr>
+
+<h2>
+    {{ post.title }}
+</h2>
+
+<p>
+    {{ post.body }}
+</p>
+
 {% endblock %}

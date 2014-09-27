@@ -1,57 +1,62 @@
 <?php
-// index2.php
-
 // ------------------
 // INCLUDES
 // ------------------
 
-// include our functions to simplify the URI for routing
-require_once 'include_route_functions.php';
-
 // load and initialize any global libraries
-require_once 'mvc/model.php'; 
-require_once 'mvc/controllers.php';
+require_once 'mvc/model.php';
+require_once 'vendor/setup_twig.php';
+require_once 'vendor/Epi/Epi.php';
 
 // ------------------
-// get the routing info
+// routing logic - choose which controller to call
 // ------------------
 
-// get full URI (including any URL-encoded variables)
-$uri = $_SERVER['REQUEST_URI'];
+Epi::init('route');
 
-// get reference to this script (for return links from HTML pages ...)
-$callingScriptPath = $_SERVER['SCRIPT_NAME'];
+getRoute()->get('/', 'index');
+getRoute()->get('/about', 'about');
+getRoute()->get('/show', 'show');
+getRoute()->get('.*', 'error404');
+getRoute()->run();
 
-// get everything after the script name, excluding any variables
-if (array_key_exists('PATH_INFO', $_SERVER)) {
-    $pathInfo = $_SERVER['PATH_INFO'];
-} else {
-    // if no such array key, then we must be running default script for this directory (index2.php)
-    $pathInfo = '/';
+// ------------------
+// the controller functions
+// ------------------
+
+function index() {
+    global $twig;
+
+    $posts = get_all_posts();
+    $args_array = array(
+        'posts' => $posts
+    );
+    $template = 'index';
+    echo $twig->render($template.'.html.twig', $args_array);
 }
 
-// ensure route ends with a forward slash
-$route = simpleRoute($pathInfo);
+function about(){
+    global $twig;
+
+    $args_array = array();
+    $template = 'about';
+    echo $twig->render($template.'.html.twig', $args_array);
+}
 
 
-// ------------------
-// routing logic
-// ------------------
+function show(){
+    global $twig;
 
-if ($route == '/'){
-    // route: /
-	list_action();
-} else if ($route == '/show' && isset($_GET['id'])){
-    // route: /show
-    // parameters: id=<n>
-	show_action($_GET['id'], $callingScriptPath);
-} else {
-    // route: ??unknown??
-	header('Status: 404 Not Found - bad PATH / ROUTE / MISSING PARAMETERS');
-    echo "<!DOCTYPE html><html lang='en'><head><title>error no found</title></head><body>";
-    echo '<h1>bad PATH / ROUTE / MISSING PARAMETERS</h1>';
-    echo "<p>URI = '$uri'</p>";
-    echo "<p>callingScriptPath = '$callingScriptPath'</p>";
-    echo "<p>route = '$route'</p>";
-    echo '</body></html>';
+    $id = $_GET["id"];
+    $post = get_post_by_id($id);
+    $args_array = array(
+        'post' => $post
+    );
+    $template = 'show';
+    echo $twig->render($template.'.html.twig', $args_array);
+}
+
+function error404() {
+    echo "<h1>404 Page Does Not Exist</h1>";
+    echo nav();
 }
