@@ -6,11 +6,6 @@ ob_start()
 //------------------ page content - START ---------------
 ?>
 <h1>Show a post</h1>
-<a href="index.php">
-    &lt; back to list of posts
-</a>
-<hr/>
-
 <h2>
     <?php echo $post['title'] ?>
 </h2>

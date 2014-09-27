@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e8c3dc2-a303-4990-ab22-968a6076bbea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_02_model/mv/model.php" afterPath="$PROJECT_DIR$/mvc_02_model/mv/model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_02_model/mv/templates/show.php" afterPath="$PROJECT_DIR$/mvc_02_model/mv/templates/show.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_03_extendable_pres/mv/model.php" afterPath="$PROJECT_DIR$/mvc_03_extendable_pres/mv/model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/show.php" afterPath="$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/show.php" />
     </list>
     <ignored path="symfony2-vs-flat-PHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,16 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mvc_02_model/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="show.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mvc_02_model/show.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,16 +78,40 @@
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <marker date="1411809435000" expanded="true" signature="372:398" placeholder="SELECT id, t..post..." />
+                <marker date="1411809435000" expanded="true" signature="587:609" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc_02_model/mv/templates/show.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="555">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mvc_03_extendable_pres/mv/model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="810">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1411809779000" expanded="true" signature="388:414" placeholder="SELECT id, t..post..." />
+                <marker date="1411809779000" expanded="true" signature="783:821" placeholder="SELECT title..post..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="show.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mvc_02_model/mv/templates/show.php">
+        <entry file="file://$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/show.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.55479455" vertical-offset="0" max-vertical-offset="730">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.16438356" vertical-offset="0" max-vertical-offset="730">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,7 +188,6 @@
         <option value="$PROJECT_DIR$/mvc_02_model/show.php" />
         <option value="$PROJECT_DIR$/mvc_02_model/about.php" />
         <option value="$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/base_layout.php" />
-        <option value="$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/show.php" />
         <option value="$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/list.php" />
         <option value="$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/about.php" />
         <option value="$PROJECT_DIR$/mvc_04_twig/show.php" />
@@ -189,6 +202,7 @@
         <option value="$PROJECT_DIR$/mvc_00_flat/show.php" />
         <option value="$PROJECT_DIR$/mvc_02_model/mv/model.php" />
         <option value="$PROJECT_DIR$/mvc_02_model/mv/templates/show.php" />
+        <option value="$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/show.php" />
       </list>
     </option>
   </component>
@@ -252,6 +266,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_03_extendable_pres" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2-vs-flat-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2-vs-flat-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_03_extendable_pres" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2-vs-flat-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2-vs-flat-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc_03_extendable_pres" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2-vs-flat-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="symfony2-vs-flat-PHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mvc_02_model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -296,20 +364,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony2-vs-flat-PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="symfony2-vs-flat-PHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc_01_pres1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -327,11 +381,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mvc_03_extendable_pres/mv" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates" />
       <recent name="$PROJECT_DIR$/mvc_02_model" />
       <recent name="$PROJECT_DIR$/mvc_01_pres1" />
-      <recent name="$PROJECT_DIR$/mvc_01_pres1/templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mvc_04_twig/mv" />
@@ -602,14 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/show.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="450">
-          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="420">
@@ -655,17 +701,6 @@
         <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="360">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mvc_03_extendable_pres/mv/model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1389604958000" expanded="true" signature="-1:-1" placeholder="SELECT id, t..post..." />
-            <marker date="1389604958000" expanded="true" signature="-1:-1" placeholder="SELECT title..post..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -810,6 +845,7 @@
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
           <folding>
             <marker date="1411809435000" expanded="true" signature="372:398" placeholder="SELECT id, t..post..." />
+            <marker date="1411809435000" expanded="true" signature="587:609" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -845,8 +881,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc_02_model/mv/templates/show.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55479455" vertical-offset="0" max-vertical-offset="730">
+        <state vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="555">
           <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_03_extendable_pres/mv/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1411809779000" expanded="true" signature="388:414" placeholder="SELECT id, t..post..." />
+            <marker date="1411809779000" expanded="true" signature="783:821" placeholder="SELECT title..post..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvc_03_extendable_pres/mv/templates/show.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16438356" vertical-offset="0" max-vertical-offset="730">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
