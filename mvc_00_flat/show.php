@@ -4,8 +4,6 @@
 // ------------------
 // connect to DB and get data
 // ------------------
-
-
 $username = 'fred';
 $password = 'smith';
 $host = 'localhost';
@@ -25,12 +23,7 @@ $id = mysqli_real_escape_string($link, $id);
 $query = "SELECT title, body FROM post WHERE ID=$id";
 $recordSet = mysqli_query($link, $query);
 
-$title = "";
-$body = "";
-if($row = mysqli_fetch_assoc($recordSet)){
-    $title = $row['title'];
-    $body = $row['body'];
-}
+$post = mysqli_fetch_assoc($recordSet);
 ?>
 
 <!DOCTYPE html>
@@ -57,10 +50,10 @@ if($row = mysqli_fetch_assoc($recordSet)){
 <!-- ************ page specific content ********** -->
 <h1>Show a post</h1>
 <h2>
-<?php echo $title; ?>
+    <?php echo $post['title'] ?>
 </h2>
 <p>
-<?php echo $body; ?>
+    <?php echo $post['body'] ?>
 </p>
 
 </body>

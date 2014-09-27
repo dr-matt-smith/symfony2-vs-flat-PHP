@@ -4,19 +4,32 @@
 // ------------------
 // connect to DB and get data
 // ------------------
-$link = mysql_connect('localhost', 'fred', 'smith');
-mysql_select_db('blog_db', $link);
-$result = mysql_query('SELECT id, title FROM post', $link); 
-mysql_close($link);
+
+$username = 'fred';
+$password = 'smith';
+$host = 'localhost';
+$db = 'blog_db';
+
+$link = mysqli_connect($host, $username, $password, $db);
+
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT id, title FROM post";
+$recordSet = mysqli_query($link, $query);
 
 // ------------------
 // store post records in an array
 // ------------------
 $posts = array();
-while ($row = mysql_fetch_assoc($result)) 
-{
-	$posts[] = $row;
+while( $row = mysqli_fetch_assoc($recordSet) ){
+    $posts[] = $row;
 }
+
+mysqli_close($link);
 
 // ------------------
 // generate view

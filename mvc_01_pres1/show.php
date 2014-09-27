@@ -4,16 +4,27 @@
 // ------------------
 // connect to DB and get data
 // ------------------
-$link = mysql_connect('localhost', 'fred', 'smith'); 
-mysql_select_db('blog_db', $link);
+$username = 'fred';
+$password = 'smith';
+$host = 'localhost';
+$db = 'blog_db';
+
+$link = mysqli_connect($host, $username, $password, $db);
+
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
 
 $id = $_GET["id"];
-$id = mysql_real_escape_string($id);
+$id = mysqli_real_escape_string($link, $id);
 
-$result = mysql_query("SELECT title, body FROM post WHERE ID=$id", $link); 
-$post = mysql_fetch_assoc($result);
+$query = "SELECT title, body FROM post WHERE ID=$id";
+$recordSet = mysqli_query($link, $query);
 
-mysql_close($link);
+$post = mysqli_fetch_assoc($recordSet);
+mysqli_close($link);
 
 // ------------------
 // generate view
