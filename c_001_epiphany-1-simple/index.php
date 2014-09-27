@@ -8,7 +8,7 @@ Epi::init('route');
 //-----------------------------------------------
 //--- associate routes with functions
 //-----------------------------------------------
-getRoute()->get('/', home);
+getRoute()->get('/', index);
 getRoute()->get('/contact', contact);
 getRoute()->get('.*', 'error404');
 getRoute()->run();
@@ -16,7 +16,7 @@ getRoute()->run();
 //-----------------------------------------------
 // --- here are the functions - to output HTML pages
 //-----------------------------------------------
-function home(){
+function index(){
     echo '
     <p>
     You are looking at the output from function home()
