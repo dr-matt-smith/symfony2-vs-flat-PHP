@@ -5,9 +5,21 @@
 // connect to DB and get data
 // ------------------
 
-$link = mysql_connect('localhost', 'fred', 'smith'); 
-mysql_select_db('blog_db', $link);
-$result = mysql_query('SELECT id, title FROM post', $link); 
+$username = 'fred';
+$password = 'smith';
+$host = 'localhost';
+$db = 'blog_db';
+
+$link = mysqli_connect($host, $username, $password, $db);
+
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
+
+$query = "SELECT id, title FROM post";
+$recordSet = mysqli_query($link, $query);
 ?>
 
 <!DOCTYPE html>
@@ -34,10 +46,14 @@ $result = mysql_query('SELECT id, title FROM post', $link);
 <!-- ************ page specific content ********** -->
 <h1>List of Posts</h1>
 <ul>
-	<?php while ($row = mysql_fetch_assoc($result)): ?>
+    <?php
+    while( $row = mysqli_fetch_assoc($recordSet) ):
+        $id = $row['id'];
+        $title = $row['title'];
+    ?>
 		<li>
-			<a href="show.php?id=<?php echo $row['id'] ?>">
-			<?php echo $row['title'] ?>
+			<a href="show.php?id=<?php echo $id?>">
+			<?php echo $title ?>
 			</a> 
 		</li>
 	<?php endwhile; ?> 
@@ -46,5 +62,4 @@ $result = mysql_query('SELECT id, title FROM post', $link);
 </html>
 
 <?php
-mysql_close($link);
-?>
+mysqli_close($link);
