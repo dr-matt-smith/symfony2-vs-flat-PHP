@@ -8,8 +8,8 @@ Epi::init('route');
 //-----------------------------------------------
 //--- associate routes with functions
 //-----------------------------------------------
-getRoute()->get('/', index);
-getRoute()->get('/contact', contact);
+getRoute()->get('/', 'index');
+getRoute()->get('/contact', 'contact');
 getRoute()->get('.*', 'error404');
 getRoute()->run();
 
