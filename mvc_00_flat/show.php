@@ -56,11 +56,6 @@ if($row = mysqli_fetch_assoc($recordSet)){
 
 <!-- ************ page specific content ********** -->
 <h1>Show a post</h1>
-<a href="index.php">
-&lt; back to list of posts
-</a> 
-<hr/>
-
 <h2>
 <?php echo $title; ?>
 </h2>
