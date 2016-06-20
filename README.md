@@ -1,6 +1,10 @@
 symfony2-vs-flat-PHP
 ====================
 
+**NOTE**: deprecated (June 2016) - see new repo based on Symfony3 steps
+
+[https://github.com/dr-matt-smith/symfony3-vs-flat-PHP](https://github.com/dr-matt-smith/symfony3-vs-flat-PHP)
+
 ## About
 a version of incrementally transforming a flat PHP app to one using Symfony2
 
